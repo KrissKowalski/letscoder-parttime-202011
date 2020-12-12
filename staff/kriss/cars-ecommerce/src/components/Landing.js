@@ -10,6 +10,7 @@ function Landing({ goToRegister, goToLogin }) {
                 <AppButton text='Register' buttonClick={goToRegister} />
                 <AppButton text='Login' color='highlight' buttonClick={goToLogin} />
             </div>
+            
         </section>
     );
 }
